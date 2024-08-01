@@ -1,0 +1,60 @@
+.chip {
+    width: fit-content;
+    padding: 7px 20px;
+    outline: none;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 20px;
+    background: transparent;
+    color: var(--text-color);
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.chip.clickable {
+    cursor: pointer;
+}
+
+.chip.clickable:hover {
+    transform: scale(1.01);
+}
+
+.chip.clickable:active {
+    transform: scale(0.99);
+}
+
+.chip-filled.primary {
+    background-color: var(--button-primary-bg);
+    color: var(--button-primary-text);
+}
+
+.chip-filled.secondary {
+    background-color: var(--button-secondary-bg);
+    color: var(--button-secondary-text);
+}
+
+.chip-filled.danger {
+    background-color: var(--button-danger-bg);
+    color: var(--button-danger-text);
+}
+
+.chip-outlined.primary {
+    border: 1px solid var(--button-primary-bg);
+    background-color: transparent;
+}
+
+.chip-outlined.secondary {
+    border: 1px solid var(--button-secondary-text);
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.chip-outlined.danger {
+    border: 1px solid var(--button-danger-bg);
+    background-color: transparent;
+}
+
+.chip-transparent {
+    background-color: transparent;
+    color: var(--button-secondary-text);
+}

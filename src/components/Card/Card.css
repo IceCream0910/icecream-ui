@@ -1,0 +1,59 @@
+.card {
+    padding: 20px;
+    outline: none;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 15px;
+    background: transparent;
+    color: var(--text-color);
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.card.clickable {
+    cursor: pointer;
+}
+
+.card.clickable:hover {
+    transform: scale(1.01);
+}
+
+.card.clickable:active {
+    transform: scale(0.99);
+}
+
+.card-filled.primary {
+    background-color: var(--button-primary-bg);
+    color: var(--button-primary-text);
+}
+
+.card-filled.secondary {
+    background-color: var(--button-secondary-bg);
+    color: var(--button-secondary-text);
+}
+
+.card-filled.danger {
+    background-color: var(--button-danger-bg);
+    color: var(--button-danger-text);
+}
+
+.card-outlined.primary {
+    border: 1px solid var(--button-primary-bg);
+    background-color: transparent;
+}
+
+.card-outlined.secondary {
+    border: 1px solid var(--button-secondary-text);
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.card-outlined.danger {
+    border: 1px solid var(--button-danger-bg);
+    background-color: transparent;
+}
+
+.card-transparent {
+    background-color: transparent;
+    color: var(--button-secondary-text);
+}

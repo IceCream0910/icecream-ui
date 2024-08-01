@@ -1,0 +1,44 @@
+:root {
+    /* Light mode colors */
+    --color-bg-primary: #ffffff;
+    --color-bg-secondary: #f0f0f0;
+    --color-text-primary: #333333;
+    --color-text-secondary: #666666;
+    --color-accent: #6b86ff;
+    --color-accent-hover: #4869ff;
+    --color-danger: #ff7070;
+    --color-danger-hover: #ff5858;
+
+    --button-primary-bg: var(--color-accent);
+    --button-primary-text: #ffffff;
+    --button-secondary-bg: var(--color-bg-secondary);
+    --button-secondary-text: var(--color-text-primary);
+    --button-danger-bg: var(--color-danger);
+    --button-danger-text: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark mode colors */
+        --color-bg-primary: #1a1a1a;
+        --color-bg-secondary: #2c2c2c;
+        --color-text-primary: #ffffff;
+        --color-text-secondary: #b3b3b3;
+        --color-accent: #5f7cff;
+        --color-accent-hover: #5d7aff;
+        --color-danger: #ff4f4f;
+        --color-danger-hover: #ff2d2d;
+
+        /* Button colors */
+        --button-primary-bg: var(--color-accent);
+        --button-primary-text: #ffffff;
+        --button-secondary-bg: var(--color-bg-secondary);
+        --button-secondary-text: var(--color-text-primary);
+        --button-danger-bg: var(--color-danger);
+        --button-danger-text: #ffffff;
+    }
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}

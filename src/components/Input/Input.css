@@ -1,0 +1,62 @@
+.input {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 15px;
+    background: transparent;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.input:hover {
+    transform: scale(1.01);
+}
+
+.input:active {
+    transform: scale(0.99);
+}
+
+.input-filled.primary {
+    background-color: var(--button-secondary-bg);
+    color: var(--button-secondary-text);
+}
+
+.input-filled.danger {
+    background-color: var(--button-danger-bg);
+    color: var(--button-danger-text);
+}
+
+.input-filled.danger::placeholder {
+    color: var(--button-danger-text);
+    opacity: 0.7;
+}
+
+.input-outlined.primary {
+    border: 1px solid var(--button-primary-bg);
+    background-color: transparent;
+}
+
+.input-outlined.secondary {
+    border: 1px solid var(--button-secondary-text);
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.input-outlined.danger {
+    border: 1px solid var(--button-danger-bg);
+    background-color: transparent;
+}
+
+.input-transparent {
+    background-color: transparent;
+    color: var(--button-secondary-text);
+}
+
+.input-transparent:hover {
+    background-color: var(--button-secondary-bg);
+    opacity: 0.8;
+}

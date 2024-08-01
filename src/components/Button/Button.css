@@ -1,0 +1,77 @@
+.button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: fit-content;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 15px;
+    background: transparent;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.button:hover {
+    transform: scale(1.01);
+}
+
+.button:active {
+    transform: scale(0.99);
+}
+
+.button-filled.primary {
+    background-color: var(--button-primary-bg);
+    color: var(--button-primary-text);
+}
+
+.button-filled.primary:hover {
+    background-color: var(--color-accent-hover);
+}
+
+.button-filled.secondary {
+    background-color: var(--button-secondary-bg);
+    color: var(--button-secondary-text);
+}
+
+.button-filled.secondary:hover {
+    opacity: 0.8;
+}
+
+.button-filled.danger {
+    background-color: var(--button-danger-bg);
+    color: var(--button-danger-text);
+}
+
+.button-filled.danger:hover {
+    background-color: var(--color-danger-hover);
+}
+
+.button-outlined.primary {
+    border: 1px solid var(--button-primary-bg);
+    background-color: transparent;
+    color: var(--button-primary-bg);
+}
+
+.button-outlined.secondary {
+    border: 1px solid var(--button-secondary-text);
+    background-color: transparent;
+    color: var(--button-secondary-text);
+    opacity: 0.7;
+}
+
+.button-outlined.danger {
+    border: 1px solid var(--button-danger-bg);
+    background-color: transparent;
+    color: var(--button-danger-bg);
+}
+
+.button-transparent {
+    background-color: transparent;
+    color: var(--button-secondary-text);
+}
+
+.button-transparent:hover {
+    background-color: var(--button-secondary-bg);
+    opacity: 0.8;
+}

@@ -24,6 +24,8 @@ const meta: Meta<typeof Button> = {
       control: { type: 'radio', options: ['primary', 'secondary', 'danger'] },
     },
     children: { control: 'text' },
+    disabled: { control: 'boolean' },
+    icon: { control: 'object' },
   },
   args: { onClick: fn() },
 };

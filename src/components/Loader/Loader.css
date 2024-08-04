@@ -1,0 +1,19 @@
+.loader {
+    border-style: solid;
+    border-color: var(--button-secondary-bg);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-left-color: var(--button-primary-bg);
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

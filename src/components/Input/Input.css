@@ -12,11 +12,16 @@
     transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.input:hover {
+.input:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.input:not(:disabled):hover {
     transform: scale(1.01);
 }
 
-.input:active {
+.input:not(:disabled):active {
     transform: scale(0.99);
 }
 

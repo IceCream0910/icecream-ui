@@ -6,6 +6,7 @@ export * from './components/Card/Card';
 export * from './components/Checkbox/Checkbox';
 export * from './components/Chip/Chip';
 export * from './components/Spacer/Spacer';
+export * from './components/Loader/Loader';
 
 export type { ButtonProps } from './components/Button/Button';
 export type { InputProps } from './components/Input/Input';
@@ -13,6 +14,7 @@ export type { CardProps } from './components/Card/Card';
 export type { CheckboxProps } from './components/Checkbox/Checkbox';
 export type { ChipProps } from './components/Chip/Chip';
 export type { SpacerProps } from './components/Spacer/Spacer';
+export type { LoaderProps } from './components/Loader/Loader';
 // export type { InputProps } from './components/Input';
 // ... and so on for other component props
 

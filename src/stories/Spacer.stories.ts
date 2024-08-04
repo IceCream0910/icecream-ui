@@ -20,7 +20,6 @@ const meta: Meta<typeof Spacer> = {
     x: { control: { type: 'text' } },
     y: { control: { type: 'text' } },
   },
-  args: { onChange: fn() },
 };
 
 export default meta;

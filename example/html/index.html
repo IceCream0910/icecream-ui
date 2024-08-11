@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Icecream-ui</title>
+	<script type="module" src="../../elements/index.ts"></script>
+	<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
+	<link rel="preload" as="style" crossorigin
+		href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css" />
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css" />
+</head>
+<style>
+	*,
+	input,
+	button {
+		font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+		-ms-user-select: none;
+		-moz-user-select: -moz-none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		user-select: none;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	main {
+		margin: 1.2em;
+		padding: 0;
+	}
+</style>
+
+<body>
+	<main>
+		<ic-title-bar title="@icecream/ui">
+			<ic-button type="accent" onclick="window.open('https://www.npmjs.com/package/@icecream0910/ui', '_blank')">
+				설치
+			</ic-button>
+		</ic-title-bar>
+		<ic-spacer y="60"></ic-spacer>
+
+		<ic-label title="Button" description="그저 버튼일 뿐이에요."></ic-label>
+		<div style="display: flex; gap: 10px; width: 100%;">
+			<ic-button type="accent">accent</ic-button>
+			<ic-button type="secondary">secondary</ic-button>
+			<ic-button type="danger">danger</ic-button>
+		</div>
+		<ic-spacer y="10"></ic-spacer>
+		<div style="display: flex; gap: 10px; width: 100%;">
+			<ic-button type="ghost">ghost</ic-button>
+			<ic-button loading>loading</ic-button>
+		</div>
+
+		<ic-spacer y="40"></ic-spacer>
+
+		<ic-label title="Chip" description="내가 만든 쿠키 위 초코칩(?)"></ic-label>
+		<ic-horz gap="2">
+			<ic-chip>초코칩</ic-chip>
+			<ic-chip>딸기칩</ic-chip>
+			<ic-chip>포카칩</ic-chip>
+		</ic-horz>
+
+		<ic-spacer y="40"></ic-spacer>
+
+		<ic-label title="Input" description="무엇이든 쓸 수 있어요."></ic-label>
+		<ic-input placeholder="텍스트를 입력하세요"></ic-input>
+		<ic-spacer y="20"></ic-spacer>
+		<ic-label description="Date Picker" message="input 아래 메시지를 표시할 수 있어요">
+			<ic-input type="date"></ic-input>
+		</ic-label>
+
+		<ic-spacer y="40"></ic-spacer>
+		<ic-card>
+			<ic-label title="Card" description="무엇이든 담아보세요."></ic-label>
+		</ic-card>
+
+
+		<ic-spacer y="40"></ic-spacer>
+
+		<ic-label title="체크박스" description="외모 췍">
+			<ic-checkbox></ic-checkbox>
+		</ic-label>
+
+		<ic-spacer y="40"></ic-spacer>
+	</main>
+
+
+	<script type="module"></script>
+</body>
+
+</html>

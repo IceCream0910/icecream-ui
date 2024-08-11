@@ -1,0 +1,27 @@
+{
+	"name": "@icecream0910/ui",
+	"author": "icecream0910",
+	"version": "0.2.5",
+	"license": "MIT",
+	"devDependencies": {
+		"glob": "^10.3.12",
+		"husky": "^9.0.11",
+		"solid-js": "^1.8.17",
+		"vite": "^5.2.10",
+		"vite-plugin-dts": "^3.9.1",
+		"vite-plugin-solid": "2.3.0"
+	},
+	"dependencies": {
+		"@vanilla-extract/css": "^1.14.2"
+	},
+	"resolutions": {
+		"strip-ansi": "6.0.0"
+	},
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"postinstall": "vite build",
+		"prepare": "husky"
+	},
+	"type": "module"
+}

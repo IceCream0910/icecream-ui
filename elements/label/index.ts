@@ -8,7 +8,7 @@ if (typeof window !== 'undefined') {
 
 import '../typo/index';
 import { SMALL_TEXT, SUBTITLE } from '../typo/index';
-import { DefineOnce } from '../../util';
+import { DefineOnce } from '../util';
 import {
 	descriptionStyle,
 	labelTitle,

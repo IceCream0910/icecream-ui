@@ -1,5 +1,5 @@
 import { style } from '@vanilla-extract/css'
-import { vars } from '../../theme.css'
+import { vars } from '../theme.css'
 
 const colorVariants = Object.fromEntries(
 	Object.entries(vars.color).map(([key, value]) => [

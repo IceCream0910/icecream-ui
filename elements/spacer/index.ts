@@ -6,7 +6,7 @@ if (typeof window !== 'undefined') {
     HTMLElement = window.HTMLElement;
 }
 
-import { DefineOnce } from '../../util';
+import { DefineOnce } from '../util';
 import { spaceStyle } from './style.css';
 
 class IcecreamSpace extends HTMLElement {

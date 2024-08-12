@@ -1,7 +1,7 @@
 {
 	"name": "@icecream0910/ui",
 	"author": "icecream0910",
-	"version": "0.2.92",
+	"version": "0.2.94",
 	"license": "MIT",
 	"devDependencies": {
 		"glob": "^10.3.12",
@@ -12,7 +12,11 @@
 		"vite-plugin-solid": "2.3.0"
 	},
 	"dependencies": {
-		"@vanilla-extract/css": "^1.14.2"
+		"@vanilla-extract/css": "^1.14.2",
+		"typescript": "^4.5.4",
+		"@types/node": "^16.11.11",
+		"@types/react": "^17.0.39",
+		"@types/react-dom": "^17.0.11"
 	},
 	"resolutions": {
 		"strip-ansi": "6.0.0"

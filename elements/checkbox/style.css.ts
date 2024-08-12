@@ -1,5 +1,5 @@
 import { globalStyle, style } from '@vanilla-extract/css'
-import { OUTLINE_COLOR, THEME_COLOR, vars } from '../../theme.css'
+import { OUTLINE_COLOR, THEME_COLOR, vars } from '../theme.css'
 
 export const checkboxStyle = style({
 	width: '6rem',

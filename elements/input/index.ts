@@ -44,7 +44,7 @@ if (typeof window !== 'undefined') {
 	HTMLElement = window.HTMLElement;
 }
 
-import { DefineOnce, passAttributes } from '../../util';
+import { DefineOnce, passAttributes } from '../util';
 
 import { smallText } from '../typo/style.css';
 import {

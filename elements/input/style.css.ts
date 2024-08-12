@@ -1,5 +1,5 @@
 import { style } from '@vanilla-extract/css'
-import { FOCUS_OUTLINE, shake, shakeSmall, vars } from '../../theme.css'
+import { FOCUS_OUTLINE, shake, shakeSmall, vars } from '../theme.css'
 
 export const wrapperStyle = style({
 	border: `1px solid ${vars.color.L3}`,

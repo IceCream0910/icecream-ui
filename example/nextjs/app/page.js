@@ -43,7 +43,7 @@ const MyPage = () => {
 
       <Spacer y={40} />
 
-      <Label title="Chip" description="내가 만든 쿠키 위 초코칩(?)" />
+      <Label title="Chip" description="안촉촉한 초코칩 나라에 살던 안촉촉한 초코칩" />
 
       <Chip>초코칩</Chip>
       <Chip>딸기칩</Chip>

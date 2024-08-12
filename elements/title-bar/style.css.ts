@@ -1,5 +1,5 @@
 import { style } from '@vanilla-extract/css'
-import { FOCUS_OUTLINE, THEME_COLOR, vars } from '../../theme.css'
+import { FOCUS_OUTLINE, THEME_COLOR, vars } from '../theme.css'
 
 export const titleBarStyle = style({
 	position: 'fixed',

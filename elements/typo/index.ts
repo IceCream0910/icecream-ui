@@ -1,4 +1,4 @@
-import { DefineOnce } from '../../util'
+import { DefineOnce } from '../util'
 import { smallText, subtitle, textContent, title, token } from './style.css'
 
 export const TITLE = createClassedComponent('ic-title', title)

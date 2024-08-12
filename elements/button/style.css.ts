@@ -1,5 +1,5 @@
 import { globalStyle, style } from '@vanilla-extract/css'
-import { FOCUS_OUTLINE, THEME_COLOR, vars } from '../../theme.css'
+import { FOCUS_OUTLINE, THEME_COLOR, vars } from '../theme.css'
 
 export const buttonStyle = style({
 	backgroundColor: `var(--button-color-bg, ${vars.color.L9})`,
